@@ -4,7 +4,7 @@
 
 <picture>
 <source 
-  srcset="https://github-readme-stats.vercel.app/api?username=TNTKien&show_icons=true&count_private=true&custom_title=Mấy%20cái%20chỉ%20số%20của%20tôi%20trông%20đần%20vcl%20kkk&card_width=600px&theme=dracula&title_color=ffff"
+  srcset="https://github-readme-stats.vercel.app/api?username=TNTKien&show_icons=true&count_private=true&custom_title=Mấy%20cái%20chỉ%20số%20của%20tôi%20trông%20đần%20vcl%20kkk&card_width=600px&theme=dracula"
   media="(prefers-color-scheme: dark)"
 />
 <source
