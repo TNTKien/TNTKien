@@ -18,7 +18,7 @@ No activity tracked
 ```
 
 <!--END_SECTION:waka-->
-    </td>
+  </td>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1209196246154215525.webp?size=128&animated=true" alt="hina"></td>
   </tr>
   <tr>
