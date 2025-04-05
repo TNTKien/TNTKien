@@ -5,12 +5,15 @@
 <table>
   <tr>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1263060723098058813.webp?size=128&animated=true" alt="hina"></td>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=TNTKien&show_icons=true&theme=dracula" style="width: 100%;" /></td>
+    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=TNTKien&show_icons=true&theme=dracula"/></td>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1261961896278626376.webp?size=128&animated=true" alt="hoshino"></td>
   </tr>
   <tr>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1056757208811057152.webp?size=128&animated=true" alt="hina"></td>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TNTKien&layout=compact&theme=dracula" style="width: 100%;" /></td>
+    <td align="center">
+      <!--START_SECTION:waka-->
+      <!--END_SECTION:waka-->
+    </td>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1209196246154215525.webp?size=128&animated=true" alt="hina"></td>
   </tr>
   <tr>
