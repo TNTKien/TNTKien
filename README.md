@@ -12,7 +12,12 @@
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1056757208811057152.webp?size=128&animated=true" alt="hina"></td>
     <td align="center">
       <!--START_SECTION:waka-->
-      <!--END_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
+<!--END_SECTION:waka-->
     </td>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1209196246154215525.webp?size=128&animated=true" alt="hina"></td>
   </tr>
