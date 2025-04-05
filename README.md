@@ -5,22 +5,8 @@
 <table>
   <tr>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1263060723098058813.webp?size=128&animated=true" alt="hina"></td>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=TNTKien&show_icons=true&theme=dracula" style="width: 100%;"/></td>
+    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=TNTKien&show_icons=true&theme=dracula" style="width: 100%;" /></td>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1261961896278626376.webp?size=128&animated=true" alt="hoshino"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://cdn.discordapp.com/emojis/1056757208811057152.webp?size=128&animated=true" alt="hina"></td>
-    <td align="center">
-      <!--START_SECTION:waka-->
-
-```txt
-Markdown     1 hr 24 mins    🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜   82.11 %
-TypeScript   18 mins         🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.89 %
-```
-
-<!--END_SECTION:waka-->
-  </td>
-    <td align="center"><img src="https://cdn.discordapp.com/emojis/1209196246154215525.webp?size=128&animated=true" alt="hina"></td>
   </tr>
   <tr>
     <td align="center"><img src="https://cdn.discordapp.com/emojis/1295345795180003389.webp?size=128&animated=true" alt="doro_dance"></td>
@@ -29,6 +15,11 @@ TypeScript   18 mins         🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
   </tr>
 </table>
 
+ <!--START_SECTION:waka-->
 
+```txt
+Markdown     1 hr 24 mins    🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜   82.11 %
+TypeScript   18 mins         🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.89 %
+```
 
-
+<!--END_SECTION:waka-->
