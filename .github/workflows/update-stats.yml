@@ -19,7 +19,7 @@ jobs:
         run: |
           mkdir -p assets
 
-          URL="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula"
+          URL="https://github-stats.suicaodex.com/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula"
 
           echo "Fetching: $URL"
 
