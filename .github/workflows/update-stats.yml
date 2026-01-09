@@ -1,0 +1,44 @@
+name: Update GitHub Stats (cached)
+
+on:
+  schedule:
+    - cron: "10 17 * * *" # 00:10 (UTC+7)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch SVG
+        run: |
+          mkdir -p assets
+          URL="https://github-readme-stats-umber-five-12.vercel.app/api?username=TNTKien&show_icons=true&theme=dracula"
+          
+          curl -L --fail --retry 5 --retry-delay 2 --max-time 25 \
+            -H "User-Agent: github-actions" \
+            "$URL" \
+            -o assets/github-stats.svg
+            
+          grep -qi "<svg" assets/github-stats.svg
+
+      - name: Commit if changed
+        run: |
+          if git status --porcelain | grep -q "assets/github-stats.svg"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/github-stats.svg
+            git commit -m "chore: update github stats"
+            git push
+          else
+            echo "No changes."
+          fi
