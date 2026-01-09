@@ -1,4 +1,4 @@
-name: Update GitHub Stats (cached)
+name: Update GitHub Stats
 
 on:
   schedule:
