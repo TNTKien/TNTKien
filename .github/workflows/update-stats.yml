@@ -4,11 +4,11 @@ on:
   schedule:
     - cron:  "10 17 * * *" # 00:10 AM UTC+7 (17:10 UTC)
   workflow_dispatch:
-  
-permissions:
-  contents: write
 
-jobs:
+permissions:
+  contents:  write
+
+jobs: 
   update:
     runs-on: ubuntu-latest
     steps:
@@ -19,17 +19,24 @@ jobs:
         run: |
           mkdir -p assets
 
-          URL="https://github-readme-stats-umber-five-12.vercel.app/api?username=TNTKien&show_icons=true&theme=dracula"
+          URL="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula"
 
           echo "Fetching: $URL"
 
-          curl -L \
+          HTTP_CODE=$(curl -L \
+            --fail \
             --retry 5 \
             --retry-delay 2 \
             --max-time 30 \
             -H "User-Agent: github-actions" \
-            "$URL" \
-            -o assets/github-stats.svg
+            -w "%{http_code}" \
+            -o assets/github-stats.svg \
+            "$URL") || { echo ":: error::Failed to fetch SVG (curl error)"; exit 1; }
+
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "::error:: Unexpected HTTP status: $HTTP_CODE"
+            exit 1
+          fi
 
           echo "---- File preview ----"
           head -n 20 assets/github-stats.svg || true
@@ -37,7 +44,8 @@ jobs:
           echo "---- File size ----"
           ls -lh assets/github-stats.svg
 
-          if ! grep -qi "<svg" assets/github-stats.svg; then
+          #SVG validation
+          if ! head -c 500 assets/github-stats.svg | grep -qE '^\s*(<\? xml|<svg)'; then
             echo "::error::Downloaded file is not a valid SVG"
             exit 1
           fi
@@ -51,7 +59,7 @@ jobs:
             echo "No changes to commit."
           else
             git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github. com"
             git commit -m "chore: update github stats"
             git push
           fi
