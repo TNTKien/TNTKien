@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">TNTKien's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 28, Total Commits  (last year) : 1180, Total PRs: 195, Total Issues: 29, Contributed to (last year): 17</desc>
+        <desc id="descId">Total Stars Earned: 28, Total Commits  (last year) : 1197, Total PRs: 197, Total Issues: 30, Contributed to (last year): 17</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 102.90726149443324;
+        stroke-dashoffset: 102.46269832517336;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >195</text>
+      >197</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >29</text>
+      >30</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
