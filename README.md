@@ -11,13 +11,13 @@
 ## Stats
 <a title="Github Stats">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="public/cards/stats-light.svg" />
+		<source media="(prefers-color-scheme: light)" srcset="assets/github-stats-light.svgg" />
 		<img align="center" src="assets/github-stats-dark.svg" />
 	</picture>
 </a>
 <a title="Most Used Languages">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="public/cards/top-langs-light.svg" />
+		<source media="(prefers-color-scheme: light)" srcset="assets/top-langs-light.svg" />
 		<img align="center" src="assets/top-langs-dark.svg" />
 	</picture>
 </a>
