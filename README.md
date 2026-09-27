@@ -1,24 +1,26 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Just+a+lazy+cat+%F0%9F%90%88" alt="Typing SVG" /></a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi+there%2C+I+have+a+%F0%9F%92%BB+and+a+%F0%9F%90%88!!)](https://git.io/typing-svg)
 
+## Recent Projects
 
-<table>
-  <tr>
-    <!-- <td align="center"><img src="https://cdn.discordapp.com/emojis/1263060723098058813.webp?size=128&animated=true" alt="hina"></td> -->
-    <td align="center">
-       <picture>
-         <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/chart/github/commits/tntkien.svg?theme=rose&font=jetbrains-mono&bg=transparent&border=false&logo=false" />
-         <source media="(prefers-color-scheme: light)" srcset="https://shieldcn.dev/chart/github/commits/tntkien.svg?mode=light&theme=rose&font=jetbrains-mono&bg=transparent&border=false&logo=false" />
-         <img alt="Commit History Chart" src="https://shieldcn.dev/chart/github/commits/tntkien.svg?theme=rose&font=jetbrains-mono&logo=false" style="width: 100%;"/>
-       </picture>
-    </td>
-    <!-- <td align="center"><img src="https://cdn.discordapp.com/emojis/1261961896278626376.webp?size=128&animated=true" alt="hoshino"></td> -->
-  </tr>
-  <tr>
-    <!-- <td align="center"><img src="https://cdn.discordapp.com/emojis/1295345795180003389.webp?size=128&animated=true" alt="doro_dance"></td> -->
-    <td align="center"><img src="https://raw.githubusercontent.com/TNTKien/TNTKien/output/snake.svg" alt="Snake animation"></td>
-    <!-- <td align="center"><img src="https://cdn.discordapp.com/emojis/1328165235198267392.webp?size=128&animated=true" alt="doro"></td> -->
-  </tr>
-</table>
+| Project                                                                     | Description                                                       |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [**better-suicaodex**](https://github.com/TNTKien/better-suicaodex)         | A non-profit manga webiste                                        |
+| [**moetruyen-public-api**](https://github.com/TNTKien/moetruyen-public-api) | Public read-only REST API for [MoeTruyen](https://moetruyen.net/) |
+| [**hanabi**](https://github.com/TNTKien/hanabi)                             | A serverless bot for playing Umamusume-like game on Discord       |
+
+## Stats
+<a title="Github Stats">
+	<picture>
+		<source media="(prefers-color-scheme: light)" srcset="public/cards/stats-light.svg" />
+		<img align="center" src="assets/github-stats-dark.svg" />
+	</picture>
+</a>
+<a title="Most Used Languages">
+	<picture>
+		<source media="(prefers-color-scheme: light)" srcset="public/cards/top-langs-light.svg" />
+		<img align="center" src="assets/top-langs-dark.svg" />
+	</picture>
+</a>
 
  <!--START_SECTION:waka-->
 
@@ -30,3 +32,23 @@ Bash                29 hrs 43 mins        🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ```
 
 <!--END_SECTION:waka-->
+
+
+<!-- <table>
+  <tr>
+    <td align="center"><img src="https://cdn.discordapp.com/emojis/1263060723098058813.webp?size=128&animated=true" alt="hina"></td>
+    <td align="center">
+       <picture>
+         <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/chart/github/commits/tntkien.svg?theme=rose&font=jetbrains-mono&bg=transparent&border=false&logo=false" />
+         <source media="(prefers-color-scheme: light)" srcset="https://shieldcn.dev/chart/github/commits/tntkien.svg?mode=light&theme=rose&font=jetbrains-mono&bg=transparent&border=false&logo=false" />
+         <img alt="Commit History Chart" src="https://shieldcn.dev/chart/github/commits/tntkien.svg?theme=rose&font=jetbrains-mono&logo=false" style="width: 100%;"/>
+       </picture>
+    </td>
+    <td align="center"><img src="https://cdn.discordapp.com/emojis/1261961896278626376.webp?size=128&animated=true" alt="hoshino"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.discordapp.com/emojis/1295345795180003389.webp?size=128&animated=true" alt="doro_dance"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/TNTKien/TNTKien/output/snake.svg" alt="Snake animation"></td>
+    <td align="center"><img src="https://cdn.discordapp.com/emojis/1328165235198267392.webp?size=128&animated=true" alt="doro"></td>
+  </tr>
+</table> -->
