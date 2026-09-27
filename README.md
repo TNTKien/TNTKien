@@ -1,9 +1,16 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Just+a+lazy+cat+%F0%9F%90%88" alt="Typing SVG" /></a>
 
+
 <table>
   <tr>
     <!-- <td align="center"><img src="https://cdn.discordapp.com/emojis/1263060723098058813.webp?size=128&animated=true" alt="hina"></td> -->
-    <td align="center"><img src="https://github.com/TNTKien/TNTKien/blob/main/assets/github-stats.svg" style="width: 100%;" /></td>
+    <td align="center">
+       <picture>
+         <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/chart/github/commits/tntkien.svg?theme=rose&font=jetbrains-mono&bg=transparent&border=false&logo=false" />
+         <source media="(prefers-color-scheme: light)" srcset="https://shieldcn.dev/chart/github/commits/tntkien.svg?mode=light&theme=rose&font=jetbrains-mono&bg=transparent&border=false&logo=false" />
+         <img alt="Commit History Chart" src="https://shieldcn.dev/chart/github/commits/tntkien.svg?theme=rose&font=jetbrains-mono&logo=false" style="width: 100%;"/>
+       </picture>
+    </td>
     <!-- <td align="center"><img src="https://cdn.discordapp.com/emojis/1261961896278626376.webp?size=128&animated=true" alt="hoshino"></td> -->
   </tr>
   <tr>
