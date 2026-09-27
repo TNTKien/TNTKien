@@ -11,7 +11,7 @@
 ## Stats
 <a title="Github Stats">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="assets/github-stats-light.svgg" />
+		<source media="(prefers-color-scheme: light)" srcset="assets/github-stats-light.svg" />
 		<img align="center" src="assets/github-stats-dark.svg" />
 	</picture>
 </a>
