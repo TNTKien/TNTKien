@@ -6,7 +6,7 @@
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [**better-suicaodex**](https://github.com/TNTKien/better-suicaodex)         | A non-profit manga webiste                                        |
 | [**moetruyen-public-api**](https://github.com/TNTKien/moetruyen-public-api) | Public read-only REST API for [MoeTruyen](https://moetruyen.net/) |
-| [**sfw-reader**](https://github.com/TNTKien/sfw-reader)                     | A playful, privacy-first reader that disguises your own text books and comics in familiar-looking desktop workspaces.       |
+| [**sfw-reader**](https://github.com/TNTKien/sfw-reader)                     | A playful, privacy-first reader.                                  |
 | [**fumi-archive**](https://github.com/TNTKien/fumi-archive)                 | Share your plushie moments on the map                             |
 
 ## Stats
